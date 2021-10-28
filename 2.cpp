@@ -6,7 +6,7 @@ using namespace std;
 int f(int i) {
 	int j = i;
 	if (i == 1) {
-		return f(2);
+		return f(2); //
 		i++;
 	}
 	if (i == 2) {
