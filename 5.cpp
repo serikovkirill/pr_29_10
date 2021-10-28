@@ -11,7 +11,7 @@ int main() {
 	vector <int> pr(n);
 	for (int i = 1; i < n; ++i) {
 		int d = pr[i - 1];
-		while (d > 0 && s[i] != s[d])
+		while (d > 0 && s[i] != s[d]) //
 			d = pr[d - 1];
 		if (s[i] == s[d])
 			++d;

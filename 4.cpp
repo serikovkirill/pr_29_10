@@ -8,7 +8,7 @@ int main() {
 	string str = "12+4*3/";
 	for (int i = 0; i < str.size(); i++) {
 		if (isdigit(str[i])) {
-			stk.push(str[i] - 48);
+			stk.push(str[i] - 48); //
 		}
 		else if (str[i] == '+' || str[i] == '-' || str[i] == '*' || str[i] == '/') {
 			int a, b;

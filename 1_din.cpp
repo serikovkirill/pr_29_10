@@ -3,7 +3,7 @@
 using namespace std;
 int main() {
 	int n;
-	cin >> n;
+	cin >> n; //
 	vector <int> f(n + 1, 0);
 	f[0] = 1;
 	f[1] = 1;
